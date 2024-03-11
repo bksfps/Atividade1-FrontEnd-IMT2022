@@ -1,0 +1,116 @@
+html {
+    position:relative;
+    min-height: 100%;
+}
+
+body {
+    margin: 0 0 100px 0;   
+    overflow-x: hidden;
+}
+#subtitulo{
+    margin-top: 2%;
+    font-size: 30px;
+}
+
+#caixa1, #caixa2, #caixa3, #caixa4 {
+    border: 1px solid black;
+    padding: 10px;
+    width: 250px;
+    height: 300px;
+    border-radius: 20px;
+}
+
+#box1 {
+    margin-top: 100px;
+    margin-bottom: 14%;
+}
+
+div h2 {
+    border: 1px solid grey;
+    text-align: center;
+    background-color: #FDED00;
+    border-radius: 12px;
+    
+}
+
+div p {
+    font-size: large;
+    text-align: center;
+    margin-top: -5px;
+}
+
+.img1 {
+    margin-left: 19%;
+}
+
+.img2 {
+    margin-left: 20%;
+    margin-bottom: 7.5%;
+}
+
+.img3 {
+    margin-left: 15%;
+    margin-bottom: 4.5%;
+    margin-top: 4%;
+}
+
+.img4 {
+    margin-left: 18%;
+    margin-bottom: 2.5%;
+}
+
+.botao1 {
+    display: inline-block;
+    text-decoration: none;
+    padding: 3px;
+    text-align: center;
+    color: black;
+    background-color: #FDED00;
+    border-radius: 5px;
+    font-weight: bold;
+    margin-left: 37%;
+    margin-bottom: 3%;
+}
+
+.botao2 {
+    display: inline-block;
+    text-align: center;
+    text-decoration: none;
+    padding: 3px;
+    text-align: right;
+    color: black;
+    background-color: #FDED00;
+    border-radius: 5px;
+    font-weight: bold;
+    margin-left: 18%;
+}
+.botao1, .botao2 {
+    font-size: 95%;
+}
+
+#caixa1, #caixa2, #caixa3, #caixa4 {
+    border: 1px solid black;
+    padding: 0;
+}
+
+
+
+footer {
+    background-color: #FDED00;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    height: 100px;
+    width: 100%;
+    overflow: hidden;
+    text-align: center;
+}
+
+footer a{
+    color: black;
+    padding: 2%;
+}
+
+
+
+
